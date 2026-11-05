@@ -57,19 +57,26 @@ Formulario y Lista de Empleados vacios
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/220d2ca6-d121-4381-84c5-da7691fe9401" />
 
+
+
 Registro de empleado mensaje de confirmación
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/c93ad3cf-cf51-430c-90a1-da1e526a91a8" />
 
+
+
 Lista de empleados y visualización de datos del empleado seleccionado en el formulario para poder actualizar datos
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/483e3f70-4abd-4286-b765-e49347859b63" />
+
+
 
 Mensaje de actualización de datos exitosa
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/4fa716ad-10ad-4cbe-865f-154cfe2a4ffe" />
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/778ddbb5-4100-43e6-ad25-225878485f6c" />
+
 
 
 Mensaje de confirmación para la eliminación de un empleado
@@ -79,6 +86,7 @@ Mensaje de confirmación para la eliminación de un empleado
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/3a9b79ee-4540-4c62-bd44-497a22561e24" />
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/d210c1af-7c04-4e41-b136-402445693aec" />
+
 
 
 Mensajes de error al no llenar un dato requerido
@@ -93,6 +101,7 @@ Mensajes de error al no llenar un dato requerido
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/737302a0-9341-4b85-b61b-0cbe4ed75d07" />
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/48b6b2bc-cb12-4bd6-844c-85a06f573183" />
+
 
 
 Mensaje de aviso al intentar eliminar a un empleado sin seleccionarlo
