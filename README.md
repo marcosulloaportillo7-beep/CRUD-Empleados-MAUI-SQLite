@@ -18,4 +18,10 @@ Mensaje de actualización de datos exitosa
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/778ddbb5-4100-43e6-ad25-225878485f6c" />
 
 
+Mensaje de confirmación para la eliminación de un empleado
+
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/f0af589c-8416-4d83-87df-25114a54c4c7" />
+
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/3a9b79ee-4540-4c62-bd44-497a22561e24" />
+
 
