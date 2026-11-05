@@ -26,6 +26,25 @@ Aplicación móvil desarrollada en .NET MAUI que permite gestionar empleados uti
 - SQLite-net-pcl
 
 
+## Estructura del proyecto
+
+```text
+CrudEmpleados
+│
+├── Models
+│   └── Empleado.cs
+│
+├── Services
+│   └── DatabaseService.cs
+│
+├── Views
+│   ├── EmpleadosPage.xaml
+│   └── EmpleadosPage.xaml.cs
+│
+├── MauiProgram.cs
+└── App.xaml.cs
+```
+
 
 Formulario y Lista de Empleados vacios
 
