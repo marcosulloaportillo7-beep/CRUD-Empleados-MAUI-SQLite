@@ -14,22 +14,6 @@ Funcionalidades
 -Almacenamiento local mediante SQLite.
 
 
-Estructura del proyecto
-CrudEmpleados
-│
-├── Models
-│   └── Empleado.cs
-│
-├── Services
-│   └── DatabaseService.cs
-│
-├── Views
-│   ├── EmpleadosPage.xaml
-│   └── EmpleadosPage.xaml.cs
-│
-├── MauiProgram.cs
-└── App.xaml.cs
-
 
 Formulario y Lista de Empleados vacios
 
