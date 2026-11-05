@@ -24,4 +24,6 @@ Mensaje de confirmación para la eliminación de un empleado
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/3a9b79ee-4540-4c62-bd44-497a22561e24" />
 
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/d210c1af-7c04-4e41-b136-402445693aec" />
+
 
