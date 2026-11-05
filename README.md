@@ -1,17 +1,29 @@
 # CRUD de Empleados con .NET MAUI y SQLite
 
-Descripción
+## Descripción
+
 Aplicación móvil desarrollada en .NET MAUI que permite gestionar empleados utilizando una base de datos local SQLite. La aplicación implementa las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar).
 
-Funcionalidades
--Registro de empleados.
--Visualización de empleados en un ListView.
--Edición de información de empleados.
--Eliminación de empleados con confirmación previa.
--Validación de campos obligatorios.
--Validación de correo electrónico.
--Validación de salario mayor que cero.
--Almacenamiento local mediante SQLite.
+
+## Funcionalidades
+
+- Registro de empleados.
+- Visualización de empleados en un ListView.
+- Edición de información de empleados.
+- Eliminación de empleados con confirmación previa.
+- Validación de campos obligatorios.
+- Validación de correo electrónico.
+- Validación de salario mayor que cero.
+- Almacenamiento local mediante SQLite.
+
+
+## Tecnologías utilizadas
+
+- .NET MAUI
+- C#
+- XAML
+- SQLite
+- SQLite-net-pcl
 
 
 
