@@ -13,6 +13,7 @@ Lista de empleados y visualización de datos del empleado seleccionado en el for
 
 Mensaje de actualización de datos exitosa
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/4fa716ad-10ad-4cbe-865f-154cfe2a4ffe" />
+
 <img width="757" height="1600" alt="image" src="https://github.com/user-attachments/assets/778ddbb5-4100-43e6-ad25-225878485f6c" />
 
 
