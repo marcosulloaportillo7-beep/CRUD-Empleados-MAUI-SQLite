@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudEmpleados.Views.EmpleadosPage"
+             Title="Empleados">
+
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="10">
+
+            <Frame
+        BackgroundColor="#4F46E5"
+        CornerRadius="10"
+        Padding="10"
+        Margin="0,0,0,15"
+        HasShadow="False">
+
+                <Label
+        Text="Registro de Empleados"
+        FontSize="22"
+        FontAttributes="Bold"
+        HorizontalOptions="Center"/>
+
+            </Frame>
+
+
+            <Label
+            x:Name="lblId"
+            Text="ID: Nuevo"
+            FontSize="16"
+            FontAttributes="Bold"
+            TextColor="LightBlue"
+            Margin="0,0,0,10"/>
+            
+
+            <Label
+                Text="Nombres:"
+                FontAttributes="Bold"/>
+            
+            <Entry
+                x:Name="txtNombres"
+                Placeholder="Ingrese los nombres"/>
+
+            <Label
+                Text="Apellidos:"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtApellidos"
+                Placeholder="Ingrese los apellidos"/>
+            
+            <Label
+                Text="Puesto:"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtPuesto"
+                Placeholder="Ingrese el puesto"/>
+
+            <Label
+                Text="Salario:"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtSalario"
+                Placeholder="Ingrese el salario"
+                Keyboard="Numeric"/>
+            
+            <Label
+                Text="Correo:"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtCorreo"
+                Placeholder="ejemplo@correo.com"/>
+            
+            <Label
+                Text="Fecha de Ingreso:"
+                FontAttributes="Bold"/>
+
+            <DatePicker
+                x:Name="dpFechaIngreso"/>
+
+            <Button
+                Text="Guardar"
+                Clicked="Guardar_Clicked"/>
+
+            <Button
+                Text="Eliminar"
+                BackgroundColor="Red"
+                TextColor="White"
+                Clicked="Eliminar_Clicked"/>
+
+
+            <Frame
+                BackgroundColor="Green"
+                CornerRadius="10"
+                Padding="10"
+                Margin="0,25,0,15"
+                HasShadow="False">
+
+                <Label
+                    Text="Lista de Empleados"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"/>
+
+            </Frame>
+
+            <ListView
+                x:Name="lvEmpleados"
+                HeightRequest="250"
+                HasUnevenRows="True"
+                RowHeight="10"
+                ItemSelected="lvEmpleados_ItemSelected">
+
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <ViewCell>
+                            
+
+                            <VerticalStackLayout Padding="5">
+
+
+                                <Label
+                                    FontSize="16"
+                                    FontAttributes="Bold"
+                                    Text="{Binding NombreCompleto}" />
+
+                                <Label
+                                    FontSize="14"
+                                    Text="{Binding Puesto}" />
+
+                                <Label
+                                    FontSize="14"
+                                    Text="{Binding Salario,
+                                    StringFormat='Salario: L {0:F2}'}"/>
+
+                            </VerticalStackLayout>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
