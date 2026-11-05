@@ -41,7 +41,7 @@ Mensajes de error al no llenar un dato requerido
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/48b6b2bc-cb12-4bd6-844c-85a06f573183" />
 
 
-Mensaje de error al intentar eliminar a un empleado sin seleccionarlo
+Mensaje de aviso al intentar eliminar a un empleado sin seleccionarlo
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/b8f93cce-e888-4249-88e2-e72820d6156e" />
 
