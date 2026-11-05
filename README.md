@@ -4,7 +4,7 @@
 
 ## Descripción 📋
 
-Esta aplicación móvil esta desarrollada en .NET MAUI y permite gestionar empleados utilizando una base de datos local SQLite. La aplicación implementa las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar).
+Esta aplicación móvil esta desarrollada en .NET MAUI y permite gestionar empleados utilizando una base de datos local SQLite. La aplicación implementa las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar), además de guardar los datos aunque se cierre la aplicación gracias a SQLite.
 
 
 
